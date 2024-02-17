@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class SpawnManager : MonoBehaviour
 {
-    public GameObject obstaclePrefab;
-    private Vector3 spawnPos = new Vector3(25, 0, 0);
+    public GameObject[] obstaclePrefab;
+    public GameObject camion;
     private float startDelay = 2;
     private float repeatRate = 2;
     public PlayerController playerControllerScript;
@@ -15,17 +15,15 @@ public class SpawnManager : MonoBehaviour
         playerControllerScript = GameObject.Find("Player").GetComponent<PlayerController>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
+   
 
     void SpawnObstacle()
     {
         if (playerControllerScript.gameOver == false)
         {
-            Instantiate(obstaclePrefab, spawnPos, obstaclePrefab.transform.rotation);
+            int numeroRandom = Random.Range(0, 3);
+            Instantiate(obstaclePrefab[numeroRandom], camion.transform.position, obstaclePrefab[numeroRandom].transform.rotation);
+            Debug.Log(numeroRandom);
         }
     }
 }
