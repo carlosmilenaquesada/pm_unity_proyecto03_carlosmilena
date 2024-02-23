@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638438510042077792
-    m_Hash: 808618777
+      ticks: 638442968931111004
+    m_Hash: 1623534349
   m_LockFileStatus:
     m_FilePath: C:/Users/Administrador/Desktop/pm_unity_proyecto03_carlosmilena/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638438510042213746
-    m_Hash: 2046357640
+      ticks: 638442968931111004
+    m_Hash: 1073825227
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -441,6 +441,7 @@ m_ResolvedPackages:
     - 5.2.0
     - 5.2.2
     - 6.0.1-pre.1
+    - 6.0.1-pre.2
     compatible:
     - 5.2.2
     recommended: 5.2.2
@@ -635,6 +636,7 @@ m_ResolvedPackages:
     - 3.2.0-pre.6
     - 3.2.0-pre.7
     - 3.2.0-pre.8
+    - 3.2.0-pre.9
     - 4.0.0-pre.1
     - 4.0.0-pre.2
     compatible:
@@ -649,6 +651,7 @@ m_ResolvedPackages:
     - 3.2.0-pre.6
     - 3.2.0-pre.7
     - 3.2.0-pre.8
+    - 3.2.0-pre.9
     - 4.0.0-pre.1
     - 4.0.0-pre.2
     recommended: 3.0.8
@@ -2944,7 +2947,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: A framework for making any serializable field a setting, complete
     with a pre-built settings interface.
   status: 0
@@ -3006,16 +3009,43 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: "This package provides Unity C# bindings to the Autodesk\xAE FBX\xAE
     SDK."
   status: 0
   errors: []
   versions:
     all:
+    - 2.0.0-preview
+    - 2.0.0-preview.4
+    - 2.0.0-preview.5
+    - 2.0.0-preview.6
+    - 2.0.0-preview.7
+    - 2.0.1-preview.1
+    - 3.0.0-preview.1
+    - 3.0.1-preview.1
+    - 3.1.0-preview.1
+    - 3.1.0-preview.2
+    - 4.0.0-pre.1
+    - 4.0.0-pre.2
+    - 4.0.1
+    - 4.1.0-pre.1
+    - 4.1.0
+    - 4.1.1
+    - 4.1.2
+    - 4.2.0-pre.1
+    - 4.2.0
     - 4.2.1
+    - 5.0.0-pre.1
+    - 5.0.0
+    - 5.1.0-pre.1
+    - 5.1.0
     compatible:
     - 4.2.1
+    - 5.0.0-pre.1
+    - 5.0.0
+    - 5.1.0-pre.1
+    - 5.1.0
     recommended: 4.2.1
     deprecated: []
   dependencies: []
@@ -3036,7 +3066,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 638089453470000000
   documentationUrl: https://docs.unity3d.com/Packages/com.autodesk.fbx@4.2/manual/index.html
   hasRepository: 1
   repository:
@@ -3255,7 +3285,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: Code editor integration for supporting Visual Studio Code as code
     editor for unity. Adds support for generating csproj files for intellisense purposes,
     auto discovery of installations, etc.
@@ -3323,7 +3353,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: 'The editor coroutines package allows developers to start constructs
     similar to Unity''s monobehaviour based coroutines within the editor using abitrary
     objects. '
